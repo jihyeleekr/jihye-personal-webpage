@@ -36,23 +36,23 @@ export default function Header() {
             className={`fixed top-0 left-0 right-0 z-30 transition-colors duration-200 ${isScrolled ? "bg-[#222831]/95 shadow-sm" : "bg-[#222831]/85"
                 } backdrop-blur`}
         >
-            <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3 md:py-4">
-                {/*logo*/}
+            <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 md:px-6 py-3 md:py-4">
+                {/* logo name */}
                 <button
                     type="button"
                     onClick={() => handleNavClick("home")}
                     className="text-left"
                 >
-                    <span className="block text-xl font-semibold leading-tight text-[#EEEEEE]">
+                    {/* nav separation */}
+                    <span className="block text-xl md:text-2xl font-semibold text-[#EEEEEE] leading-tight">
                         Jihye
-                    </span>
-                    <span className="block -mt-1 text-xl font-semibold leading-tight text-[#EEEEEE]">
-                        Lee
+                        <span className="md:hidden block" />
+                        <span className="md:inline"> Lee</span>
                     </span>
                 </button>
 
-                {/* desktop ver */}
-                <div className="hidden items-center gap-8 text-sm md:flex">
+                {/* Desktop ver */}
+                <div className="hidden md:flex items-center gap-10 text-base">
                     {NAV_LINKS.map((link) => (
                         <button
                             key={link.id}
@@ -65,7 +65,7 @@ export default function Header() {
                     ))}
                 </div>
 
-                {/* mobile button*/}
+                {/* mobile ver */}
                 <button
                     type="button"
                     onClick={() => setIsOpen((prev) => !prev)}
@@ -96,7 +96,7 @@ export default function Header() {
                     } overflow-hidden`}
             >
                 <div className="border-t border-white/10 bg-[#222831]">
-                    <div className="mx-auto flex max-w-5xl flex-col px-4 py-2">
+                    <div className="mx-auto flex max-w-6xl flex-col px-5 py-2">
                         {NAV_LINKS.map((link) => (
                             <button
                                 key={link.id}
