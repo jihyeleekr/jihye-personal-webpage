@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 
 const NAV_LINKS = [
     { id: "about", label: "About" },
-    { id: "projects", label: "Projects" },
-    { id: "activities", label: "Activities" },
     { id: "resume", label: "Resume" },
+    { id: "activities", label: "Activities" },
+    { id: "projects", label: "Projects" },
     { id: "contact", label: "Contact" },
 ];
 
