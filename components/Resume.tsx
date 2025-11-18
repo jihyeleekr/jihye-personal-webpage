@@ -31,19 +31,11 @@ export default function Resume() {
               <p className="mt-1 text-gray-500 text-sm">Sep 2024 – Present</p>
             </div>
 
-            {/* Timeline icon */}
             <div className="hidden md:flex flex-col items-center">
               <div className="w-px flex-1 bg-gray-300" />
               <div className="w-12 h-12 rounded-full bg-[#222831] flex items-center justify-center">
-                {/* coding icon */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.8">
                   <rect x="3" y="7" width="18" height="13" rx="2" />
                   <path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
                 </svg>
@@ -67,19 +59,11 @@ export default function Resume() {
               <p className="mt-1 text-gray-500 text-sm">2024 – Present</p>
             </div>
 
-            {/* Icon */}
             <div className="hidden md:flex flex-col items-center">
               <div className="w-px flex-1 bg-gray-300" />
               <div className="w-12 h-12 rounded-full bg-[#222831] flex items-center justify-center">
-                {/* library icon */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.8">
                   <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
                   <path d="M4 4.5A2.5 2.5 0 0 1 6.5 7H20" />
                   <path d="M6.5 7A2.5 2.5 0 0 0 4 9.5v10A2.5 2.5 0 0 1 6.5 17" />
@@ -105,19 +89,11 @@ export default function Resume() {
               <p className="mt-1 text-gray-500 text-sm">2023 – 2024</p>
             </div>
 
-            {/* Icon */}
             <div className="hidden md:flex flex-col items-center">
               <div className="w-px flex-1 bg-gray-300" />
               <div className="w-12 h-12 rounded-full bg-[#222831] flex items-center justify-center">
-                {/* research icon */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.8">
                   <path d="M10 2v7.5L5.5 19a2.5 2.5 0 0 0 2.25 3.5h8.5A2.5 2.5 0 0 0 18.5 19L14 9.5V2" />
                 </svg>
               </div>
@@ -141,19 +117,11 @@ export default function Resume() {
               <p className="mt-1 text-gray-500 text-sm">Spring 2024</p>
             </div>
 
-            {/* Icon */}
             <div className="hidden md:flex flex-col items-center">
               <div className="w-px flex-1 bg-gray-300" />
               <div className="w-12 h-12 rounded-full bg-[#222831] flex items-center justify-center">
-                {/* calculus/math icon */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.8">
                   <path d="M18 12H6" />
                   <path d="M12 6v12" />
                 </svg>
@@ -170,26 +138,18 @@ export default function Resume() {
             </div>
           </div>
 
-          {/* STEM Tutor – Temple University */}
+          {/* STEM Tutor */}
           <div className="md:grid md:grid-cols-[1fr_auto_1.8fr] gap-8 items-start">
             <div className="text-center md:text-right">
               <h3 className="text-xl font-bold">STEM Tutor – Computer Science</h3>
               <p className="mt-1 text-gray-500 text-sm">2022 – 2024</p>
             </div>
 
-            {/* Icon */}
             <div className="hidden md:flex flex-col items-center">
               <div className="w-px flex-1 bg-gray-300" />
               <div className="w-12 h-12 rounded-full bg-[#222831] flex items-center justify-center">
-                {/* math icon */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.8">
                   <path d="M4 5h16" />
                   <path d="M4 10h8" />
                   <path d="M4 15h4" />
@@ -209,6 +169,35 @@ export default function Resume() {
             </div>
           </div>
 
+          {/* Harvard Medical School – Data Science Intern */}
+          <div className="md:grid md:grid-cols-[1fr_auto_1.8fr] gap-8 items-start">
+            <div className="text-center md:text-right">
+              <h3 className="text-xl font-bold">Data Science Intern</h3>
+              <p className="mt-1 text-gray-500 text-sm">Jun 2021 – Sep 2021</p>
+            </div>
+
+            <div className="hidden md:flex flex-col items-center">
+              <div className="w-px flex-1 bg-gray-300" />
+              <div className="w-12 h-12 rounded-full bg-[#222831] flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.8">
+                  <path d="M10 2v7.5L5.5 19a2.5 2.5 0 0 0 2.25 3.5h8.5A2.5 2.5 0 0 0 18.5 19L14 9.5V2" />
+                </svg>
+              </div>
+              <div className="w-px flex-1 bg-gray-300" />
+            </div>
+
+            <div>
+              <p className="font-semibold text-lg">Harvard Medical School – Lee Lab</p>
+              <p className="mt-2 text-gray-700 leading-relaxed">
+                Engineered a computational workflow for scATAC-seq data analysis in R, resolving
+                critical dependency issues to ensure workflow stability. Visualized complex biological
+                datasets including Adult Mouse Brain and 10X PBMC, transforming raw data into interpretable insights.
+              </p>
+            </div>
+          </div>
+
+
           {/* Teaching Assistant – Grade 3 */}
           <div className="md:grid md:grid-cols-[1fr_auto_1.8fr] gap-8 items-start">
             <div className="text-center md:text-right">
@@ -218,19 +207,11 @@ export default function Resume() {
               <p className="mt-1 text-gray-500 text-sm">2020 – 2021</p>
             </div>
 
-            {/* Icon */}
             <div className="hidden md:flex flex-col items-center">
               <div className="w-px flex-1 bg-gray-300" />
               <div className="w-12 h-12 rounded-full bg-[#222831] flex items-center justify-center">
-                {/* teacher icon */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.8">
                   <path d="M12 12a5 5 0 1 0-5-5" />
                   <path d="M4 22v-2a6 6 0 0 1 12 0v2" />
                 </svg>
@@ -242,8 +223,7 @@ export default function Resume() {
               <p className="font-semibold text-lg">Calvary Baptist Schools – Lansdale, PA</p>
               <p className="mt-2 text-gray-700 leading-relaxed">
                 Assisted the lead teacher in math and science instruction for 3rd-grade students.
-                Designed engaging early-STEM activities to strengthen student participation and
-                conceptual understanding.
+                Designed engaging early-STEM activities to strengthen participation and understanding.
               </p>
             </div>
           </div>
@@ -266,19 +246,11 @@ export default function Resume() {
               <p className="mt-1 text-gray-500 text-sm">2024 – 2026 (Expected)</p>
             </div>
 
-            {/* icon */}
             <div className="hidden md:flex flex-col items-center">
               <div className="w-px flex-1 bg-gray-300" />
               <div className="w-12 h-12 rounded-full bg-[#222831] flex items-center justify-center">
-                {/* graduation cap */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.8">
                   <path d="M22 10L12 4 2 10l10 6 10-6Z" />
                   <path d="M6 12v5c0 .9 2.7 2 6 2s6-1.1 6-2v-5" />
                 </svg>
@@ -298,25 +270,15 @@ export default function Resume() {
           {/* Temple */}
           <div className="md:grid md:grid-cols-[1fr_auto_1.8fr] gap-8 items-start">
             <div className="text-center md:text-right">
-              <h3 className="text-xl font-bold">
-                B.S. in Computer Science (Transferred)
-              </h3>
+              <h3 className="text-xl font-bold">B.S. in Computer Science (Transferred)</h3>
               <p className="mt-1 text-gray-500 text-sm">2022 – 2024</p>
             </div>
 
-            {/* icon */}
             <div className="hidden md:flex flex-col items-center">
               <div className="w-px flex-1 bg-gray-300" />
               <div className="w-12 h-12 rounded-full bg-[#222831] flex items-center justify-center">
-                {/* cap */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.8">
                   <path d="M22 10L12 4 2 10l10 6 10-6Z" />
                   <path d="M6 12v5c0 .9 2.7 2 6 2s6-1.1 6-2v-5" />
                 </svg>
