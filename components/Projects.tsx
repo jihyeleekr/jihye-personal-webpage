@@ -156,9 +156,14 @@ export default function Projects() {
                 </div>
               </div>
 
-              <span className="mt-8 inline-flex self-start rounded-full bg-[#3A424D] px-6 py-2 text-sm font-medium text-gray-200">
-                In Progress
-              </span>
+              <a
+                href="https://github.com/jihyeleekr/Baymax"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-8 inline-flex self-start rounded-full border border-[#76ABAE] px-6 py-2 text-sm font-medium text-[#76ABAE] hover:bg-[#76ABAE]/10 transition"
+              >
+                View on Github
+              </a>
             </article>
 
             {/* COVID-19 Simulation */}
