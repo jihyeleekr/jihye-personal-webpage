@@ -28,7 +28,7 @@ export default function Resume() {
           <div className="md:grid md:grid-cols-[1fr_auto_1.8fr] gap-8 items-start">
             <div className="text-center md:text-right">
               <h3 className="text-xl font-bold">Course Assistant – Web App Development</h3>
-              <p className="mt-1 text-gray-500 text-sm">Sep 2024 – Present</p>
+              <p className="mt-1 text-gray-500 text-sm">Sep 2024 – May 2026</p>
             </div>
 
             <div className="hidden md:flex flex-col items-center">
@@ -56,7 +56,7 @@ export default function Resume() {
           <div className="md:grid md:grid-cols-[1fr_auto_1.8fr] gap-8 items-start">
             <div className="text-center md:text-right">
               <h3 className="text-xl font-bold">Library Student Assistant</h3>
-              <p className="mt-1 text-gray-500 text-sm">2024 – Present</p>
+              <p className="mt-1 text-gray-500 text-sm">September 2024 – May 2026</p>
             </div>
 
             <div className="hidden md:flex flex-col items-center">
@@ -86,7 +86,7 @@ export default function Resume() {
           <div className="md:grid md:grid-cols-[1fr_auto_1.8fr] gap-8 items-start">
             <div className="text-center md:text-right">
               <h3 className="text-xl font-bold">Undergraduate Research Assistant – HCI / AI</h3>
-              <p className="mt-1 text-gray-500 text-sm">2023 – 2024</p>
+              <p className="mt-1 text-gray-500 text-sm">September 2023 – May 2024</p>
             </div>
 
             <div className="hidden md:flex flex-col items-center">
