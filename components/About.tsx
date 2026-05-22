@@ -36,9 +36,8 @@ export default function About() {
           {/* Intro text */}
           <div className="flex-1 text-left">
             <p className="text-sm md:text-base text-gray-300 leading-relaxed">
-              I’m a senior majoring in Computer Science at Boston University,
-              graduating in May 2026. I originally studied at Temple University
-              before transferring to BU.
+              I graduated with honors from Boston University in May 2026 with a Bachelor of Science in Computer Science.
+              Before transferring to BU, I studied at Temple University.
             </p>
 
             <p className="mt-3 text-sm md:text-base text-gray-300 leading-relaxed">
@@ -49,8 +48,8 @@ export default function About() {
             </p>
 
             <p className="mt-3 text-sm md:text-base text-gray-300 leading-relaxed">
-              I’m currently preparing for PhD applications in AI/ML and love
-              connecting with people working on impactful and innovative projects.
+              I’m currently exploring both full-time opportunities and PhD programs in AI/ML,
+              and I love connecting with people working on impactful and innovative projects.
             </p>
           </div>
         </div>
