@@ -243,7 +243,7 @@ export default function Resume() {
           <div className="md:grid md:grid-cols-[1fr_auto_1.8fr] gap-8 items-start">
             <div className="text-center md:text-right">
               <h3 className="text-xl font-bold">B.A. in Computer Science</h3>
-              <p className="mt-1 text-gray-500 text-sm">2024 – 2026 (Expected)</p>
+              <p className="mt-1 text-gray-500 text-sm">2024 – 2026 </p>
             </div>
 
             <div className="hidden md:flex flex-col items-center">
