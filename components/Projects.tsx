@@ -47,7 +47,7 @@ export default function Projects() {
               <div>
                 <div className="flex items-baseline justify-between text-[11px] uppercase tracking-wide text-gray-400">
                   <span>Course Project</span>
-                  <span>December 2025 (Expected)</span>
+                  <span>December 2025 </span>
                 </div>
 
                 <h3 className="mt-3 text-xl md:text-2xl font-semibold">
@@ -133,7 +133,7 @@ export default function Projects() {
               <div>
                 <div className="flex items-baseline justify-between text-[11px] uppercase tracking-wide text-gray-400">
                   <span>Course Project</span>
-                  <span>December 2025 (Expected)</span>
+                  <span>December 2025 </span>
                 </div>
 
                 <h3 className="mt-3 text-xl md:text-2xl font-semibold">
